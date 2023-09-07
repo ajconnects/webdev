@@ -1,0 +1,33 @@
+
+body {
+    background: radial-gradient( rgb(6, 4, 85), rgb(73, 61, 61)) ;
+
+    color: rgb(42, 80, 114);
+    text-align: center;
+
+    height: 85vh;
+    display: grid;
+    place-items: center;
+}
+
+#backend {
+    scale: 2;
+}
+
+main {
+    background: rgb(88, 85, 85);
+    color: rgb(231, 167, 47);
+    border: 4px double;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    display: grid;
+    place-items: center;
+
+    animation: rota 60s infinite;
+}
+
+@keyframes rota {
+    0% { rorate: 0deg; }
+    100% { rotate: 360deg; }
+}
